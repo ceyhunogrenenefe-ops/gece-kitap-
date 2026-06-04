@@ -298,12 +298,20 @@
     box-shadow: 0 2px 12px rgba(0,48,135,0.08);
     background: white;
   }
-  .video-card .instagram-media {
-    border-radius: 10px !important;
-    min-width: 0 !important;
-    width: 100% !important;
-    max-width: 100% !important;
-    margin: 0 !important;
+  .reel-wrap {
+    position: relative;
+    width: 100%;
+    padding-bottom: 177%;
+    overflow: hidden;
+    border-radius: 10px;
+    background: #f0f0f0;
+  }
+  .reel-frame {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    border: none;
+    border-radius: 10px;
   }
 
   @media (max-width: 900px) {
@@ -1091,44 +1099,59 @@
 
     <!-- VELİ VIDEO YORUMLARI -->
     <div class="video-reviews-head">
-      <h2>🎬 Velilerimiz Anlatıyor</h2>
+      <h2>🎬 Öğrencilerimiz ve Velilerimiz Anlatıyor</h2>
       <p>Öğrenci velilerimizin kendi sesiyle aktardığı deneyimler</p>
     </div>
     <div class="video-grid">
       <div class="video-card">
-        <blockquote class="instagram-media"
-          data-instgrm-captioned
-          data-instgrm-permalink="https://www.instagram.com/reel/DObUb79ggFg/?utm_source=ig_embed&amp;utm_campaign=loading"
-          data-instgrm-version="14"
-          style="background:#FFF;border:0;border-radius:10px;box-shadow:none;margin:0;max-width:100%;min-width:0;padding:0;width:100%;">
-        </blockquote>
+        <div class="reel-wrap">
+          <iframe
+            src="https://www.instagram.com/reel/DObUb79ggFg/embed/"
+            class="reel-frame"
+            frameborder="0"
+            scrolling="no"
+            allowtransparency="true"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+          ></iframe>
+        </div>
       </div>
       <div class="video-card">
-        <blockquote class="instagram-media"
-          data-instgrm-captioned
-          data-instgrm-permalink="https://www.instagram.com/reel/DLwuYzXCzbx/?utm_source=ig_embed&amp;utm_campaign=loading"
-          data-instgrm-version="14"
-          style="background:#FFF;border:0;border-radius:10px;box-shadow:none;margin:0;max-width:100%;min-width:0;padding:0;width:100%;">
-        </blockquote>
+        <div class="reel-wrap">
+          <iframe
+            src="https://www.instagram.com/reel/DLwuYzXCzbx/embed/"
+            class="reel-frame"
+            frameborder="0"
+            scrolling="no"
+            allowtransparency="true"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+          ></iframe>
+        </div>
       </div>
       <div class="video-card">
-        <blockquote class="instagram-media"
-          data-instgrm-captioned
-          data-instgrm-permalink="https://www.instagram.com/reel/DN0v2-ERATE/?utm_source=ig_embed&amp;utm_campaign=loading"
-          data-instgrm-version="14"
-          style="background:#FFF;border:0;border-radius:10px;box-shadow:none;margin:0;max-width:100%;min-width:0;padding:0;width:100%;">
-        </blockquote>
+        <div class="reel-wrap">
+          <iframe
+            src="https://www.instagram.com/reel/DN0v2-ERATE/embed/"
+            class="reel-frame"
+            frameborder="0"
+            scrolling="no"
+            allowtransparency="true"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+          ></iframe>
+        </div>
       </div>
       <div class="video-card">
-        <blockquote class="instagram-media"
-          data-instgrm-captioned
-          data-instgrm-permalink="https://www.instagram.com/reel/DOL2jiaAupp/?utm_source=ig_embed&amp;utm_campaign=loading"
-          data-instgrm-version="14"
-          style="background:#FFF;border:0;border-radius:10px;box-shadow:none;margin:0;max-width:100%;min-width:0;padding:0;width:100%;">
-        </blockquote>
+        <div class="reel-wrap">
+          <iframe
+            src="https://www.instagram.com/reel/DOL2jiaAupp/embed/"
+            class="reel-frame"
+            frameborder="0"
+            scrolling="no"
+            allowtransparency="true"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+          ></iframe>
+        </div>
       </div>
     </div>
-    <script async src="//www.instagram.com/embed.js"></script>
   </div>
 </section>
 
